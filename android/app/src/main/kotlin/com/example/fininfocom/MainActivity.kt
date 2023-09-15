@@ -1,3 +1,4 @@
+package com.example.fininfocom
 import android.bluetooth.BluetoothAdapter
 import androidx.annotation.NonNull
 import io.flutter.embedding.android.FlutterActivity
@@ -5,7 +6,7 @@ import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
 
 class MainActivity : FlutterActivity() {
-    private val CHANNEL = "bluetooth_channel"
+    private val CHANNEL = "bluetoothChannel"
 
     override fun configureFlutterEngine(@NonNull flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
