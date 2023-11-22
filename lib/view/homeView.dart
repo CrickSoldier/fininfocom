@@ -42,13 +42,13 @@ class _HomeViewState extends State<HomeView> {
               child: const Text('Random Dog Images'),
             ),
             const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                // Handle "Enable Bluetooth" button press
-                enableBluetooth();
-              },
-              child: const Text('Enable Bluetooth'),
-            ),
+            // ElevatedButton(
+            //   onPressed: () {
+            //     // Handle "Enable Bluetooth" button press
+            //     enableBluetooth();
+            //   },
+            //   child: const Text('Enable Bluetooth'),
+            // ),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
